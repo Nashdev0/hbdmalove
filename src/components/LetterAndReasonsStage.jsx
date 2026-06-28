@@ -238,10 +238,9 @@ export default function LetterAndReasonsStage({ onComplete, onOpenEnvelope, show
             {allReasonsRevealed && (
               <div className="animate-fadeIn space-y-8">
                 <div className="text-center">
-                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-700">
-                    Galeri <span className="text-pink-500">Kenangan</span>
+                    <h2 className="text-2xl sm:text-3xl font-bold text-gray-700">
+                    Kumpulan Foto <span className="text-pink-500">Kamu</span>
                   </h2>
-                  <p className="text-sm text-gray-400 mt-2">momen-momen yang nggak mau aku lupa</p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-8 sm:gap-10 lg:gap-12 mx-auto">
@@ -254,7 +253,6 @@ export default function LetterAndReasonsStage({ onComplete, onOpenEnvelope, show
                         <div className="w-full aspect-[4/5] rounded-md overflow-hidden bg-white">
                           <img src={`/img/gallery-${i + 1}.jpg`} alt={`kenangan ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
                         </div>
-                        <p className="font-handwritten text-base text-pink-400/80 text-center mt-3 truncate px-1">kenangan #{i + 1}</p>
                       </div>
                     </div>
                   ))}
@@ -304,9 +302,9 @@ export default function LetterAndReasonsStage({ onComplete, onOpenEnvelope, show
                   <h3 className="text-center text-2xl sm:text-3xl font-bold text-gray-700">miaw</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-10">
                     {[
-                      { label: 'foto kucing pertama' },
-                      { label: 'foto kucing kedua' },
-                      { label: 'foto kucing ketiga' },
+                      { label: 'wlee' },
+                      { label: 'cimimate' },
+                      { label: 'brum brum' },
                     ].map((item, i) => (
                       <div key={i} className="flex justify-center">
                         <div className="bg-white rounded-xl shadow-2xl p-3 pb-12 border border-gray-100 w-full max-w-[280px]">
