@@ -73,7 +73,7 @@ export default function PasscodeStage({ onUnlock }) {
           <div className="relative -rotate-[4deg] animate-float">
             <div className="w-72 sm:w-80 lg:w-[22rem] rounded-2xl overflow-hidden shadow-2xl border border-white/40 backdrop-blur-sm bg-white/70 p-4 pb-16">
               <div className="w-full aspect-[4/5] rounded-lg overflow-hidden bg-white">
-                <img src="/img/passcode.jpg" alt="My Favorit Picture" className="w-full h-full object-cover" loading="lazy" />
+                <img src="img/passcode.jpg" alt="My Favorit Picture" className="w-full h-full object-cover" loading="lazy" />
               </div>
               <div className="absolute bottom-4 left-0 right-0 text-center">
                 <p className="font-handwritten text-lg text-pink-400/90 italic">My Favorit Picture</p>

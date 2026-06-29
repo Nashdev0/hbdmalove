@@ -15,8 +15,8 @@ export default function App() {
   const [showFinal, setShowFinal] = useState(false)
 
   const currentSong = (stage === 'fakeEnd' || stage === 'astronomy' || stage === 'galaxy')
-    ? '/music-aurora.mp3' 
-    : '/music.mp3'
+    ? 'music-aurora.mp3' 
+    : 'music.mp3'
 
   return (
     <>

@@ -251,7 +251,7 @@ export default function LetterAndReasonsStage({ onComplete, onOpenEnvelope, show
                     <div key={i} className={`${item.rotate} hover:rotate-0 hover:scale-105 transition-all duration-300`}>
                       <div className="bg-white rounded-xl shadow-2xl p-3 pb-12 border border-gray-100">
                         <div className="w-full aspect-[4/5] rounded-md overflow-hidden bg-white">
-                          <img src={`/img/gallery-${i + 1}.jpg`} alt={`kenangan ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
+                          <img src={`img/gallery-${i + 1}.jpg`} alt={`kenangan ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
                         </div>
                       </div>
                     </div>
@@ -309,7 +309,7 @@ export default function LetterAndReasonsStage({ onComplete, onOpenEnvelope, show
                       <div key={i} className="flex justify-center">
                         <div className="bg-white rounded-xl shadow-2xl p-3 pb-12 border border-gray-100 w-full max-w-[280px]">
                           <div className="w-full aspect-square rounded-md overflow-hidden bg-white">
-                            <img src={`/img/cat-${i + 1}.jpg`} alt={`kucing ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
+                            <img src={`img/cat-${i + 1}.jpg`} alt={`kucing ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
                           </div>
                           <p className="font-handwritten text-base text-pink-400/80 text-center mt-3 px-1">{item.label}</p>
                         </div>
@@ -411,7 +411,7 @@ export default function LetterAndReasonsStage({ onComplete, onOpenEnvelope, show
 
               <div className="rounded-3xl overflow-hidden border-4 border-white shadow-2xl bg-white/50 p-3 max-w-lg w-full">
                 <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden bg-white">
-                  <img src="/img/final.jpg" alt="foto spesial" className="w-full h-full object-cover" loading="lazy" />
+                  <img src="img/final.jpg" alt="foto spesial" className="w-full h-full object-cover" loading="lazy" />
                 </div>
               </div>
 
